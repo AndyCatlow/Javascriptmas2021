@@ -9,7 +9,7 @@ document.querySelector(".theme-toggle-button").addEventListener("click", () => {
   const currentRotation = parseInt(
     getComputedStyle(santaSnowmanContainer).getPropertyValue("--rotation")
   );
-  sunMoonContainer.style.setProperty("--rotation", currentRotation + 180);
+  santaSnowmanContainer.style.setProperty("--rotation", currentRotation + 180);
   if (body.classList.contains("snow")) {
     backgroundVideo.setAttribute("src", "Snowflakes.mp4");
   } else {

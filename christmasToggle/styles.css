@@ -104,4 +104,5 @@ body.snow {
 
 .snow .snowman {
   opacity: 1;
+  background-color: chartreuse;
 }
